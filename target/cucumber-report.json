@@ -1,0 +1,732 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-20T17:04:13.600Z",
+        "line": 14,
+        "name": "Billing amount",
+        "description": "",
+        "id": "calculate-billing-amount;billing-amount;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9967800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on billing page",
+            "match": {
+              "location": "com.stepDefinitions.BillingSampleSteps.user_is_on_billing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1998800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters billing amount \"1000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000",
+                  "offset": 28
+                }
+              ],
+              "location": "com.stepDefinitions.BillingSampleSteps.user_enters_billing_amount(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1994900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters tax amount \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 24
+                }
+              ],
+              "location": "com.stepDefinitions.BillingSampleSteps.user_enters_tax_amount(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1995200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on calculate button",
+            "match": {
+              "location": "com.stepDefinitions.BillingSampleSteps.user_clicks_on_calculate_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9973900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "it gives the final amount \"1010\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1010",
+                  "offset": 27
+                }
+              ],
+              "location": "com.stepDefinitions.BillingSampleSteps.it_give_the_final_amount(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Billing"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-20T17:04:13.786Z",
+        "line": 15,
+        "name": "Billing amount",
+        "description": "",
+        "id": "calculate-billing-amount;billing-amount;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 997800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on billing page",
+            "match": {
+              "location": "com.stepDefinitions.BillingSampleSteps.user_is_on_billing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 997000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters billing amount \"500\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 28
+                }
+              ],
+              "location": "com.stepDefinitions.BillingSampleSteps.user_enters_billing_amount(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1994500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters tax amount \"20\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 24
+                }
+              ],
+              "location": "com.stepDefinitions.BillingSampleSteps.user_enters_tax_amount(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on calculate button",
+            "match": {
+              "location": "com.stepDefinitions.BillingSampleSteps.user_clicks_on_calculate_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "it gives the final amount \"520\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "520",
+                  "offset": 27
+                }
+              ],
+              "location": "com.stepDefinitions.BillingSampleSteps.it_give_the_final_amount(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Billing"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-20T17:04:13.820Z",
+        "line": 16,
+        "name": "Billing amount",
+        "description": "",
+        "id": "calculate-billing-amount;billing-amount;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4993600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on billing page",
+            "match": {
+              "location": "com.stepDefinitions.BillingSampleSteps.user_is_on_billing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2001000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters billing amount \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 28
+                }
+              ],
+              "location": "com.stepDefinitions.BillingSampleSteps.user_enters_billing_amount(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters tax amount \"5.5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5.5",
+                  "offset": 24
+                }
+              ],
+              "location": "com.stepDefinitions.BillingSampleSteps.user_enters_tax_amount(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on calculate button",
+            "match": {
+              "location": "com.stepDefinitions.BillingSampleSteps.user_clicks_on_calculate_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1994400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "it gives the final amount \"105.5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "105.5",
+                  "offset": 27
+                }
+              ],
+              "location": "com.stepDefinitions.BillingSampleSteps.it_give_the_final_amount(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Billing"
+          }
+        ]
+      }
+    ],
+    "name": "Calculate billing amount",
+    "description": "",
+    "id": "calculate-billing-amount",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Features/BillingSample.feature",
+    "tags": [
+      {
+        "name": "@All",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User logging in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "user gets into orange hrm site",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-20T17:04:13.912Z",
+        "line": 6,
+        "name": "Entering values in industry and country dropdown",
+        "description": "",
+        "id": "check-dropdown-for-orange-hrm-site;entering-values-in-industry-and-country-dropdown",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 996700,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user makes different selection in industry and country dropdown",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "test is successful",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check dropdown for Orange HRM site",
+    "description": "",
+    "id": "check-dropdown-for-orange-hrm-site",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Features/OrangeDropdown.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-20T17:04:13.947Z",
+        "line": 5,
+        "name": "user registration with different data",
+        "description": "",
+        "id": "user-registration;user-registration-with-different-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1523300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on registration page",
+            "match": {
+              "location": "com.stepDefinitions.RegistrationDataTblSteps.user_is_on_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3989500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters following user details",
+            "match": {
+              "location": "com.stepDefinitions.RegistrationDataTblSteps.user_enters_following_user_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "bablu",
+                  "chaudhary",
+                  "babch@gmail.com",
+                  "687687678",
+                  "Mumbai"
+                ]
+              },
+              {
+                "cells": [
+                  "sonia",
+                  "chaudhary",
+                  "sonch@gmail.com",
+                  "547758578",
+                  "Delhi"
+                ]
+              },
+              {
+                "cells": [
+                  "mannu",
+                  "gangster",
+                  "manG@gmail.com",
+                  "455435656",
+                  "Dubai"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 991800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user registration should be successful",
+            "match": {
+              "location": "com.stepDefinitions.RegistrationDataTblSteps.user_registration_should_be_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Registration"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-20T17:04:13.985Z",
+        "line": 15,
+        "name": "user registration with different data with columns",
+        "description": "",
+        "id": "user-registration;user-registration-with-different-data-with-columns",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2992200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is on registration page",
+            "match": {
+              "location": "com.stepDefinitions.RegistrationDataTblSteps.user_is_on_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4991900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters following user details with columns",
+            "match": {
+              "location": "com.stepDefinitions.RegistrationDataTblSteps.user_enters_following_user_details_with_columns(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName",
+                  "lastName",
+                  "emailId",
+                  "phoneNumber",
+                  "city"
+                ]
+              },
+              {
+                "cells": [
+                  "bablu",
+                  "chaudhary",
+                  "babch@gmail.com",
+                  "687687678",
+                  "Mumbai"
+                ]
+              },
+              {
+                "cells": [
+                  "sonia",
+                  "chaudhary",
+                  "sonch@gmail.com",
+                  "547758578",
+                  "Delhi"
+                ]
+              },
+              {
+                "cells": [
+                  "mannu",
+                  "gangster",
+                  "manG@gmail.com",
+                  "455435656",
+                  "Dubai"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2993400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user registration should be successful",
+            "match": {
+              "location": "com.stepDefinitions.RegistrationDataTblSteps.user_registration_should_be_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Registration"
+          }
+        ]
+      }
+    ],
+    "name": "User registration",
+    "description": "",
+    "id": "user-registration",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Features/RegistrationDataTbl.feature",
+    "tags": [
+      {
+        "name": "@All",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-20T17:04:14.040Z",
+        "line": 15,
+        "name": "Ways to treat loneliness based on my decisions",
+        "description": "",
+        "id": "self-loneliness;ways-to-treat-loneliness-based-on-my-decisions;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 996900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I made wrong school study in life",
+            "match": {
+              "arguments": [
+                {
+                  "val": "school study",
+                  "offset": 13
+                }
+              ],
+              "location": "com.stepDefinitions.SearchTestSteps.m1Decisions(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 996500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am mental heat a lot",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mental heat",
+                  "offset": 5
+                }
+              ],
+              "location": "com.stepDefinitions.SearchTestSteps.m2Suffer(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I have to knowledge and seek forgiveness",
+            "match": {
+              "arguments": [
+                {
+                  "val": "knowledge",
+                  "offset": 10
+                }
+              ],
+              "location": "com.stepDefinitions.SearchTestSteps.m3Pray(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Search"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-20T17:04:14.064Z",
+        "line": 16,
+        "name": "Ways to treat loneliness based on my decisions",
+        "description": "",
+        "id": "self-loneliness;ways-to-treat-loneliness-based-on-my-decisions;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I made wrong gadha engg in life",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gadha engg",
+                  "offset": 13
+                }
+              ],
+              "location": "com.stepDefinitions.SearchTestSteps.m1Decisions(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am hair loss a lot",
+            "match": {
+              "arguments": [
+                {
+                  "val": "hair loss",
+                  "offset": 5
+                }
+              ],
+              "location": "com.stepDefinitions.SearchTestSteps.m2Suffer(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I have to techie and seek forgiveness",
+            "match": {
+              "arguments": [
+                {
+                  "val": "techie",
+                  "offset": 10
+                }
+              ],
+              "location": "com.stepDefinitions.SearchTestSteps.m3Pray(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Search"
+          }
+        ]
+      }
+    ],
+    "name": "Self-loneliness",
+    "description": "",
+    "id": "self-loneliness",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Features/SearchTest.feature",
+    "tags": [
+      {
+        "name": "@All",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
