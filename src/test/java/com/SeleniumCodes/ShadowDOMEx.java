@@ -57,7 +57,7 @@ public class ShadowDOMEx {
         js.executeScript("arguments[0].click()", resetPwdLink);                // naveen wrote "arguments[0].click();"      with a semi-colon at end but the one I wrote also works fine
         //Thread.sleep(3000);
     }
-//  jijgar  dscds
+
     @Test
     public void chromeDownloads() throws InterruptedException {
         driver.get("chrome://downloads/");
