@@ -68,7 +68,7 @@ public class ShadowDOMEx {
         // extracted search element of Chrome Downloads window from shadow root
         WebElement searchBtn = (WebElement) js.executeScript("return document.querySelector(\"downloads-manager\").shadowRoot.querySelector(\"#toolbar\").shadowRoot.querySelector(\"#toolbar\").shadowRoot.querySelector(\"#search\").shadowRoot.querySelector(\"#searchInput\")");
 
-        js.executeScript("arguments[0].value='I succeeded in sending text to Downloads search button'", searchBtn);                 // sending keys to search button of Chrome Downloadssssssssssssss
+        js.executeScript("arguments[0].value='I succeeded in sending text to Downloads search button'", searchBtn);                 // sending keys to search button of Chrome Downloads
         //Thread.sleep(3000);
     }
 
