@@ -78,9 +78,4 @@ public class ShadowDOMEx {
         driver.close();
     }
 
-
-
-
-
-
 }
