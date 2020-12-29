@@ -9,5 +9,6 @@ com\SeleniumCodes\DropdownHandle.class
 com\SeleniumCodes\DropdownValues$2.class
 com\stepDefinitions\BillingSampleSteps.class
 com\runnerClass\SearchTestRunner.class
+com\SeleniumCodes\ShadowDOMEx.class
 com\SeleniumCodes\DropdownValues$1.class
 com\stepDefinitions\SearchTestSteps.class

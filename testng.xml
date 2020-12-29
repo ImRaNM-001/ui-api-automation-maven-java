@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!--<suite name="Suite file with Cucumber TestNG" verbose="1" parallel="methods" thread-count="2">-->
 <suite name="Suite file with Cucumber TestNG" verbose="1" parallel="tests">
+    <!--       data-provider-thread-count="1" configfailurepolicy="continue">-->
 
-<!--       data-provider-thread-count="1" configfailurepolicy="continue">-->
-
+    <!--    <test name="API_UI_combined BDD test" annotations="JDK" preserve-order="true" group-by-instances="true">-->
     <test name="API_UI_combined BDD test" annotations="JDK" preserve-order="true">
         <classes>
-            <class name="com.runnerClass.TestRunner" />
-<!--            <class name="com.SeleniumCodes.DropdownHandle" />-->
+            <!--            <class name="com.runnerClass.TestRunner" />-->
 
-<!--            <class name="com.runnerClass.SearchTestRunner" />-->
-<!--            <class name="com.runnerClass.BillingSampleTestRunner" />-->
-<!--            <class name="com.runnerClass.RegistrationDataTestRunner" />-->
+            <!--            <class name="com.SeleniumCodes.DropdownHandle" />-->
+            <class name="com.SeleniumCodes.ShadowDOMEx"/>
+
+            <!--            <class name="com.runnerClass.SearchTestRunner" />-->
+            <!--            <class name="com.runnerClass.BillingSampleTestRunner" />-->
+            <!--            <class name="com.runnerClass.RegistrationDataTestRunner" />-->
         </classes>
     </test>
 </suite>
