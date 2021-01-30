@@ -4,7 +4,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-        features = "src/main/resources/Features/SearchTest.feature",
+        features = "src/main/resources/Features/LonelyManTest.feature",
         glue = {"com.stepDefinitions"},
         tags = "@All",
         plugin = {"pretty",
@@ -15,4 +15,4 @@ import io.cucumber.testng.CucumberOptions;
         dryRun = false
 )
 
-public class SearchTestRunner extends AbstractTestNGCucumberTests{}
+public class LonelyManTestRunner extends AbstractTestNGCucumberTests{}

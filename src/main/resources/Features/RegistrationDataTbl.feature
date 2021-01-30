@@ -1,7 +1,7 @@
-@All
+#@All
 Feature: User registration
 
-  @Registration
+  @Registration @Skip
   Scenario: user registration with different data
     Given user is on registration page
     When user enters following user details

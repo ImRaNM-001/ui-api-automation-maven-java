@@ -7,12 +7,22 @@
     <!--    <test name="API_UI_combined BDD test" annotations="JDK" preserve-order="true" group-by-instances="true">-->
     <test name="API_UI_combined BDD test" annotations="JDK" preserve-order="true">
         <classes>
-            <!--            <class name="com.runnerClass.TestRunner" />-->
+<!--            <class name="com.runnerClass.TestRunner"/>-->
+<!--            <class name="com.runnerClass.FailTestRunner"/>-->
 
             <!--            <class name="com.SeleniumCodes.DropdownHandle" />-->
-            <class name="com.SeleniumCodes.ShadowDOMEx"/>
+            <!--            <class name="com.SeleniumCodes.ShadowDOMEx"/>-->
 
-            <!--            <class name="com.runnerClass.SearchTestRunner" />-->
+            <class name="com.SeleniumCodes.StreamExs">
+                <methods>
+                    <exclude name="clickAllLinks"/>
+                    <exclude name="findAmazonLinks"/>
+                    <exclude name="getFreshworksLinks"/>
+                    <exclude name="getJavaScriptPopupTitle"/>
+                    <include name="getPopupTitle"/>
+                </methods>
+            </class>
+            <!--            <class name="com.runnerClass.LonelyManTestRunner" />-->
             <!--            <class name="com.runnerClass.BillingSampleTestRunner" />-->
             <!--            <class name="com.runnerClass.RegistrationDataTestRunner" />-->
         </classes>

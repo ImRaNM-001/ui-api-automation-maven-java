@@ -4,7 +4,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class SearchTestSteps {
+public class LonelyManTestSteps {
 
     @Given("^I made wrong (.*) in life$")
     public void m1Decisions(String decisions) {

@@ -4,7 +4,7 @@ Feature: Self-loneliness
 #  who spent entire guy in loneliness
 #  hopes to die in peace
 
-  @Search
+  @Lonely @Skip
   Scenario Outline: Ways to treat loneliness based on my decisions
     Given I made wrong <decisions> in life
     When I am <suffering> a lot

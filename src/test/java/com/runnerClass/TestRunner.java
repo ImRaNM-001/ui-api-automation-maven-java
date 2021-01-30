@@ -10,7 +10,6 @@ import io.cucumber.testng.CucumberOptions;
 //import org.testng.annotations.DataProvider;
 //import org.testng.annotations.Test;
 
-
 // 1> run with junit runner
 //@RunWith(Cucumber.class)
 //@CucumberOptions(
@@ -29,13 +28,17 @@ import io.cucumber.testng.CucumberOptions;
 // 2> run with testng runner (without junit)
 @CucumberOptions(
         features = "src/main/resources/Features",
-        glue = {"com.stepDefinitions"},
-//        tags = "@All",              // do not use {} like tags = {"~@Smoke"} in cucumber 6 else it would throw error
-//        tags = "@Search or @Billing or @Registration",
+        glue = {"com.stepDefinitions", "com.hooks"},      // required when we need to include hooks java code
+//        glue = {"com.stepDefinitions"},
+//        tags = "@All",                           // do not use {} like tags = {"~@Smoke"} in cucumber 6 else it would throw error
+//        tags = "@Billing or @Registration or @Lonely",
+//        tags = "@Billing or @Registration and not @Skip",
+//        tags = "@Billing or @Registration and not @Skip or @Lonely and not @Skip",
+//        tags = "not @Skip",
         plugin = {"pretty",
                 "html:target/cucumber-report.html",
                 "json:target/cucumber-report.json",
-                "rerun:target/rerun.txt",
+                "rerun:target/failedrerun.txt",     // makes entry of any failed scenario in this file
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
 //        plugin = {"json:target/cucumber.json","html:target/site/cucumber-pretty.html"},
 //        strict = true,
