@@ -157,7 +157,6 @@ public class StreamExs {
         driver.close();
         Thread.sleep(2000);
         System.out.println("The title of 2nd window is " + childWindowTitle);
-
     }
 
 
