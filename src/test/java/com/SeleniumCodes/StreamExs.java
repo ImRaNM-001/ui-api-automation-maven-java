@@ -163,7 +163,8 @@ public class StreamExs {
     public String switchToPopup(WebDriver driver, String title) {
         Set<String> handles = driver.getWindowHandles();
 
-        return handles.stream()                                                 // this is returning a String named poupTitle interally
+        return handles.stream()                                                 // this is returning a String named 
+                // poupTitle interally
                 .map(popup -> driver.switchTo().window(popup).getTitle())
                 .filter(elem -> elem.contains(title))
 //               .filter(elem -> elem.equalsIgnoreCase(title))
