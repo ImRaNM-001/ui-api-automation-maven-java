@@ -163,20 +163,17 @@ public class StreamExs {
     public String switchToPopup(WebDriver driver, String title) {
         Set<String> handles = driver.getWindowHandles();
 
-        return handles.stream()                                                 // this is returning a String named 
-                // poupTitle interally
-                .map(popup -> driver.switchTo().window(popup).getTitle())
-                .filter(elem -> elem.contains(title))
+        return handles.stream()                                                 // this holds a String and returns it internally
+                .map(popup -> driver.switchTo().window(popup).getTitle() )
+                .filter(elem -> elem.contains(title) )
 //               .filter(elem -> elem.equalsIgnoreCase(title))
-//                .filter(elem -> elem.contains(title) || elem.equalsIgnoreCase(title))     // .contains() and
-//                equalsIgnoreCase() doe not work together, need to use org.apache.commons.lang3.StringUtils
+//                .filter(elem -> elem.contains(title) || elem.equalsIgnoreCase(title))     // .contains() and equalsIgnoreCase() doe not work together, need to use org.apache.commons.lang3.StringUtils
 //                .containsIgnoreCase("AbBaCca", "bac"); but driver.getWindowHandles(); do not return Set<StringUtils>
-
                 .findAny()
                 .orElseThrow(() -> {
                     throw new RuntimeException("No such pop up here...");       // without {} braces exception doesn't work
-                });             // return statement closed
-    }           // method closed
+                });                         // return statement closed
+    }                                       // method closed
 
 
     @AfterMethod
