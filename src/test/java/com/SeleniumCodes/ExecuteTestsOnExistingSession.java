@@ -17,7 +17,8 @@ import java.util.concurrent.TimeUnit;
 public class ExecuteTestsOnExistingSession {
 
     /*
-     *   use case1: TC has 100 steps - 98 steps passed but 2 steps failed, we use existing session to execute remaining cases instead of starting from beginning all over again
+     *   use case1: TC has 100 steps - 98 steps passed but 2 steps failed, we use existing session to execute
+    remaining cases instead of starting from beginning all over again
      *
      *   use case2: some additional methods or new things/implementation on already opened session without starting a new one
      *
